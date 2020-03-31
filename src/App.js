@@ -21,6 +21,9 @@ const App = () => {
       <button onClick={() => dispatch({ type: "DOWN_ASYNC" })}>
         Down Async
       </button>
+      <button onClick={() => dispatch({ type: "UP_DOWN_ASYNC" })}>
+        UP 3 & DOWN 1
+      </button>
       <button
         onClick={() => dispatch({ type: "CHANGE_YOUR_LOVE", value: !love })}
       >

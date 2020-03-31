@@ -16,12 +16,6 @@ const reducer = (state = initialState, action) => {
     case "CHANGE_YOUR_LOVE":
       newState.love = action.value;
       break;
-    // Another Way
-    // case "MINUS":
-    //   return {
-    //     ...state,
-    //     age: state.age - action.value
-    //   };
     default:
       break;
   }
@@ -30,3 +24,10 @@ const reducer = (state = initialState, action) => {
 };
 
 export default reducer;
+
+// Another Way
+// case "MINUS":
+//   return {
+//     ...state,
+//     age: state.age - action.value
+//   };
